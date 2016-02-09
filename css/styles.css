@@ -1,0 +1,40 @@
+table {
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  border-left: 1px solid #1D96B2;
+  border-right: 1px solid #1D96B2;
+  border-bottom: 1px solid #1D96B2;
+}
+
+td, th {
+  border-top: 1px solid #1D96B2;
+  padding: 12px;
+}
+
+td:first-of-type {
+  font-weight: bolder;
+  text-align: left;
+}
+
+th:first-of-type {
+  text-align: left;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #EFEFEE;
+  }
+
+td {
+  text-align: center;
+}
+
+
+/*tr:first-child td {
+  font-weight: bolder;
+  background-color: black;
+}*/
+
+th {
+  background-color: #1D96B2;
+  color: white;
+}
