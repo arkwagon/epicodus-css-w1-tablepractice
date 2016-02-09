@@ -4,11 +4,14 @@ table {
   border-left: 1px solid #1D96B2;
   border-right: 1px solid #1D96B2;
   border-bottom: 1px solid #1D96B2;
+  font-family: sans-serif;
 }
 
 td, th {
   border-top: 1px solid #1D96B2;
   padding: 12px;
+  color: #5E5D52;
+  font-weight: normal;
 }
 
 td:first-of-type {
